@@ -348,7 +348,31 @@ footer>nav>ul>li:hover {
     width: 200%;
     transition: all ease 1s;
 }
-
+/** CHARACTER**/
+#charaSteph{
+   background-image:url(../imgs/stephane_cartoon_symetric.png);
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width:200px;
+    right:10%;
+    position: absolute;
+    bottom:0;
+    z-index: 500;
+    
+}
+#charaPhil{
+   background-image:url(../imgs/philippe_cartoon_symetric.png);
+    background-position: center;
+    background-size: contain;
+    height: 200px;
+    width:200px;
+    left:10%;
+    position: absolute;
+    bottom:0;
+    z-index: 500;
+    
+}
 * {
     transition: all ease 1s
 }
@@ -363,6 +387,13 @@ footer>nav>ul>li:hover {
     }
     h3 {
         font-size: 30px;
+    }
+    
+    #charaPhil{
+        left:0%;
+    }
+    #charaSteph{
+        right:0%;
     }
     * {
         transition: all ease 1s
@@ -410,6 +441,14 @@ footer>nav>ul>li:hover {
         align-content: center;
         justify-content: center;
     }
+    #charaPhil,#charaSteph{
+       display: none;
+    }
+    .swiper-pagination-bullet,.swiper-pagination-bullet-active{
+    background-size: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
     * {
         transition: all ease 1s
     }

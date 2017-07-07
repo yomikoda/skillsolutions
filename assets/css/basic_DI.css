@@ -350,6 +350,7 @@ footer>nav>ul>li:hover {
 }
 
 /** CHARACTER**/
+
 #charaSteph{
    background-image:url(../imgs/stephane_cartoon_symetric.png);
     background-position: center;
@@ -389,6 +390,12 @@ footer>nav>ul>li:hover {
     }
     h3 {
         font-size: 30px;
+    }
+    #charaPhil{
+        left:0%;
+    }
+    #charaSteph{
+        right:0%;
     }
     * {
         transition: all ease 1s
@@ -436,6 +443,16 @@ footer>nav>ul>li:hover {
         align-content: center;
         justify-content: center;
     }
+    
+    #charaPhil,#charaSteph{
+       display: none;
+    }
+    .swiper-pagination-bullet,.swiper-pagination-bullet-active{
+    background-size: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
     * {
         transition: all ease 1s
     }
