@@ -5,6 +5,11 @@ Incubation July 2017
 Landing Pages for SkillSolutions.
 
 skillsolutions.yomikoda.com/DRH
+
 skillsolutions.yomikoda.com/DG
+
 skillsolutions.yomikoda.com/DI
+
 skillsolutions.yomikoda.com/CI
+
+http://skillsolutions.yomikoda.com/CI
